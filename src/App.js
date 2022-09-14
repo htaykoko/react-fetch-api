@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <nav>
-          <h1>React Basic app</h1>
+          <h1>React Basic App</h1>
           <Link to="/">Home</Link>
           <Link to="/posts">Posts</Link>
         </nav>

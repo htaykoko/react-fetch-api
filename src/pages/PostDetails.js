@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
 export default function PostDetails() {
@@ -26,6 +26,7 @@ export default function PostDetails() {
   return (
     <div className="content">
       {isLoading && <p>Loading...</p>}
+      <Link to={`/posts`}>Back</Link>
       <div className="post">
         <h3>{post.title}</h3>
       </div>
